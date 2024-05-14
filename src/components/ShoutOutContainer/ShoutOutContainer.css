@@ -1,0 +1,11 @@
+.shout-out-container {
+    padding: 1vh 2vw;
+    border-top-left-radius: 8pt;
+    border-top-right-radius: 8pt;
+    border-bottom: solid 2px #000;
+    height: 53vh;
+    overflow: hidden;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,52 @@
+form {
+    height: 15vh;
+    width: 45vw;
+    display: grid;
+    grid-template-areas: "a a a b b b"
+                         "c c c c d d"
+                         "c c c c d d";
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin: 2.5vh 2.5vw;
+}
+
+.name-input-container {
+    grid-area: a;
+}
+
+.name-input-container label {
+
+}
+
+.name-input-container input {
+
+}
+
+
+.date-input-container {
+    grid-area: b;
+}
+
+.date-input-container label {
+    font-size: 1.5rem;
+}
+
+.date-input-container input {
+
+}
+
+.message-input-container {
+    grid-area: c;
+}
+
+.message-input-container label {
+    
+}
+
+.message-input-container input {
+    
+}
+
+#submit-btn {
+    grid-area: d;
+}
