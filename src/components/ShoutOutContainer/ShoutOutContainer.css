@@ -8,4 +8,13 @@
     overflow-y: scroll;
     display: flex;
     flex-direction: column;
+    background-image: url("https://www.shutterstock.com/image-vector/learning-online-elearning-video-call-600nw-1704602992.jpg");
+}
+
+.shout-out-container h1 {
+    background-color: #ffffff;
+    padding: 1rem 2rem;
+    width: max-content;
+    border-radius: 8pt;
+    border: solid 2px #000
 }

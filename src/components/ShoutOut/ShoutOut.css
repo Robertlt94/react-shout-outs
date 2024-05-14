@@ -1,7 +1,7 @@
-.shout-out-message {
-    text-align: center;
-}
-
 .announcements {
-    
+    background-color: #ffffff;
+    padding: 1rem 2rem;
+    border-radius: 8pt;
+    border: solid 2px #000;
+    margin-top: 1rem; 
 }
