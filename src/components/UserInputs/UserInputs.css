@@ -1,52 +1,52 @@
 form {
     height: 15vh;
     width: 45vw;
-    display: grid;
-    grid-template-areas: "a a a b b b"
-                         "c c c c d d"
-                         "c c c c d d";
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     margin: 2.5vh 2.5vw;
+    font-size: 1.25rem;
 }
 
-.name-input-container {
-    grid-area: a;
+.username-input {
+    margin-left: .5rem;
+    padding-left: 1rem;
+    width: 10vw;
+    height: 5vh;
+    border-radius: 8pt;
 }
 
-.name-input-container label {
-
+.date-label {
+    margin-left: 2rem;
 }
 
-.name-input-container input {
-
+.date-input {
+    margin-left: .5rem;
+    padding-left: 1rem;
+    width: 7vw;
+    height: 5vh;
+    border-radius: 8pt;
 }
 
-
-.date-input-container {
-    grid-area: b;
+.message-container {
+    margin-top: 2vh;
 }
 
-.date-input-container label {
-    font-size: 1.5rem;
+.message-label {
+    position: absolute;
 }
 
-.date-input-container input {
-
+.message-input {
+    margin-left: 6.5rem;
+    padding-left: 1rem;
+    width: 24vw;
+    height: 6vh;
+    border-radius: 8pt;
 }
 
-.message-input-container {
-    grid-area: c;
-}
-
-.message-input-container label {
-    
-}
-
-.message-input-container input {
-    
-}
-
-#submit-btn {
-    grid-area: d;
+button {
+    background-color: #ff2222;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    right: 30vw;
+    top: 65vh;
 }
